@@ -1,0 +1,53 @@
+.singleline-category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 10px grey;
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+
+.category-link {
+  text-decoration: none;
+  color: black;
+}
+
+.offcanvas {
+  max-width: 15%;
+}
+
+.offcanvas-body {
+  margin-left: 0.6rem;
+}
+
+.offcanvas-title {
+  margin-left: 0.6rem;
+}
+
+.offcanvas-body-item {
+  margin-bottom: 0.6rem;
+  cursor: pointer;
+}
+
+.singleline-search {
+  visibility: hidden;
+}
+
+.lines-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lines-logo img {
+  width: 4.5rem;
+  height: 3rem;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .offcanvas {
+    max-width: 50%;
+  }
+}

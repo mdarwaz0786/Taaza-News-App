@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header-link {
+  text-decoration: none;
+  font-size: 1.3rem;
+  background: rgb(66, 65, 65);
+  color: white;
+  box-shadow: 5px 5px 10px grey;
+  border-radius: 5px;
+  padding: 0px 10px;
+  margin-bottom: 1rem;
+  transition: 0.3s;
+}
+
+.header-link:hover {
+  background: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+}

@@ -1,0 +1,41 @@
+.promotion-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+  background-color: #333;
+  box-shadow: 5px 5px 10px grey;
+  height: 4rem;
+  margin: 0.2rem 12.5rem;
+  border-radius: 0.5rem;
+  padding: 0px 0.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.promotion-container img {
+  width: 10rem;
+  height: 3rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.promotion-container p {
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .promotion-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+    text-align: center;
+    margin: 0.5rem;
+    height: 6rem;
+  }
+
+  .promotion-container img {
+    width: 5rem;
+    height: 2rem;
+    margin-right: 0.2rem;
+  }
+}
