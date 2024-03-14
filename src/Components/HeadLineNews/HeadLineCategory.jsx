@@ -8,7 +8,7 @@ import DailyDigest from "../../assets/DailyDigest.png";
 import BreakingNow from "../../assets/BreakingNow.png";
 import WeeklyRoundup from "../../assets/WeeklyRoundup.png";
 import MonthlyRecap from "../../assets/MonthlyRecap.png";
-import QuickRoundUp from "../../assets/QuickRoundUp.png";
+// import QuickRoundUp from "../../assets/QuickRoundUp.png";
 import VirulBuzz from "../../assets/VirulBuzz.png";
 import NewTrends from "../../assets/NewTrends.png";
 import RawUnfiltered from "../../assets/RawUnfiltered.png";
@@ -73,10 +73,10 @@ const HeadLineCategory = ({ setCategory }) => {
           <p>Monthly Recap: Top 30 News</p>
         </div>
 
-        <div className="row-box" onClick={() => setCategory("hlines05")}>
+        {/* <div className="row-box" onClick={() => setCategory("hlines05")}>
           <img src={QuickRoundUp} alt="icon" />
           <p>Quick Roundup: 15 Brief Updates</p>
-        </div>
+        </div> */}
 
         <div className="row-box" onClick={() => setCategory("hlines06")}>
           <img src={VirulBuzz} alt="icon" />
