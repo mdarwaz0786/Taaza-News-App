@@ -1,1 +1,2 @@
-Taaza News App using Reactjs.
+Taaza News App Build using Reactjs.
+
